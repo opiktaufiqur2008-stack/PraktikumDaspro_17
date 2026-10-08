@@ -28,13 +28,6 @@ public class StudiKasus2 {
         System.out.print("Status pendanaan PKM (1=lolos, 0=tidak lolos) : ");
         statusPKM = opik.nextInt();
 
-        // System.out.println();
-
-        // System.out.println("Nama mahasiswa : " + nama);
-        // System.out.println("Jenis kegiatan : " + jenisKegiatan);
-        // System.out.println("Jumlah dokumen : " + jumlahDokumen);
-        // System.out.println("Peringkat juara : " + peringkatJuara);
-
         if (jumlahDokumen < 4) {
 
             int kurang = 4 - jumlahDokumen;
