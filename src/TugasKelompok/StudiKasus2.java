@@ -1,4 +1,4 @@
-package P7;
+package TugasKelompok;
 
 import java.util.Scanner;
 
@@ -56,3 +56,4 @@ public class StudiKasus2 {
         opik.close();
     }
 }
+
