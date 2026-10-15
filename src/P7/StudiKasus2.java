@@ -11,7 +11,8 @@ public class StudiKasus2 {
         String jenisKegiatan;
         int jumlahDokumen;
         int peringkatJuara;
-       
+        int statusPKM;
+
         System.out.print("Nama mahasiswa : ");
         nama = opik.nextLine();
 
@@ -35,6 +36,14 @@ public class StudiKasus2 {
                     System.out.println("Status : Dana penghargaan diberikan.");
                 } else {
                     System.out.println("Status : Bukan juara 1, 2, atau 3. " + "Dana penghargaan tidak diberikan.");
+                }
+            } else if (jenisKegiatan.equalsIgnoreCase("PKM")) {
+                System.out.print("Status pendanaan PKM (1=lolos, 0=tidak lolos) : ");
+                statusPKM = opik.nextInt();
+                if (statusPKM == 1) {
+                    System.out.println("Status : Dana penghargaan diberikan.");
+                } else {
+                    System.out.println("Status : PKM tidak lolos. " + "Dana penghargaan tidak diberikan.");
                 }
             } else {
                 System.out.println("Status : Kegiatan lainnya. " + "Dana penghargaan tidak diberikan.");
