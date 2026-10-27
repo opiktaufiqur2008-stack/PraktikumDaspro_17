@@ -1,4 +1,4 @@
-package P7;
+package P6;
 import java.util.Scanner;
 
 public class cobaCoba {
@@ -14,5 +14,6 @@ public class cobaCoba {
 
         System.out.println("Berapa lama parkir");
 
+        opik.close();
     }
 }
