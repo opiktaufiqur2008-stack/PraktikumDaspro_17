@@ -1,5 +1,6 @@
 package P9;
 // parameter unik absen 17
+// Jumlah mahasiswa yang dimasukkan = 15 (17 mod 10) =22
 import java.util.Scanner;
 public class SiakadWhile17 {
     public static void main(String[] args) {

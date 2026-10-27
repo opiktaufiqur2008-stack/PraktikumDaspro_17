@@ -1,5 +1,10 @@
 package P9;
 // parameter unik absen 17
+// harga tiket = 40000 + (17 mod 6) * 2000 = 52000
+// syarat diskon pertama = 3 + (17 mod 3) = 5
+// diskon ke 1 = (8 + (17 mod 5))% = 10%
+// syarat dison kedua = 8 + (17 mod 4) = 9
+// diskon ke 2 = (15 (17 mod 4))% = 16%
 import java.util.Scanner;
 public class tiketBioskop {
 
@@ -8,7 +13,7 @@ public class tiketBioskop {
 
         int jumlahTiket;
         int totalTiket = 0;
-        double hargaTiket = 50000;
+        double hargaTiket = 52000;
         double totalPenjualan = 0;
         double totalHarga;
         double diskon;

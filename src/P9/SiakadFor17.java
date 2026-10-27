@@ -1,5 +1,7 @@
 package P9;
 // parameter unik absen 17
+// Batas perulangan = 8 + (17 mod 5) = 10
+// Batas kelusan = 55 + (17 mod 11) = 61
 import java.util.Scanner;
 public class SiakadFor17 {
     public static void main(String[] args) {

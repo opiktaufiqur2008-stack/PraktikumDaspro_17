@@ -1,5 +1,8 @@
 package P9;
 // parameter unik absen 17
+//  hargaKopi = 10000 + (17 mod 5) × 1000 =12000
+// hargaTeh = 5000 + (17 mod 4) × 1000 =6000
+// hargaRoti = 15000 + (17 mod 6) × 1000 = 20000
 import java.util.Scanner;
 public class KafeDoWhile17 {
     public static void main(String[] args) {

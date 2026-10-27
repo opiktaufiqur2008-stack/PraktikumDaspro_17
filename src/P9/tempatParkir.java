@@ -1,5 +1,7 @@
 package P9;
 // parameter unik absen 17
+// tarif parkir mobil = 2500 + (17 mod 6) * 250 = 3750 perjam
+// tarif parkir motor = 1500 + (17 mod 6) * 250 = 2750 perjam
 import java.util.Scanner;
 
 public class tempatParkir {
