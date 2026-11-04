@@ -10,28 +10,28 @@ public class Triangle17 {
         
         // Segitiga biasa
         int i = 1;
-        while (i <= n) {
-            // System.out.print("[i=" + i + "] ");     // debug sementara
-            int j = 0;
-            while (j < i) {
-                System.out.print("*");
-                j++;
-            }
-            System.out.println();
-            i++;
-        }
-        
-        // Segitiga terbalik
-        // i = n;
-        // while (i >= 1) {
+        // while (i <= n) {
+        //     // System.out.print("[i=" + i + "] ");     // debug sementara
         //     int j = 0;
         //     while (j < i) {
         //         System.out.print("*");
         //         j++;
         //     }
         //     System.out.println();
-        //     i--;
+        //     i++;
         // }
+        
+        // Segitiga terbalik
+        i = n;
+        while (i >= 1) {
+            int j = 0;
+            while (j < i) {
+                System.out.print("*");
+                j++;
+            }
+            System.out.println();
+            i--;
+        }
 
         opik.close();
     }
