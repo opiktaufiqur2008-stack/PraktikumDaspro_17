@@ -15,7 +15,7 @@ public class Rectangle17 {
 
         for (int i = 1; i <= kolom; i++) {          // outer loop: baris
             for (int j = 1; j <= baris; j++) {      // inner loop: kolom
-                System.out.print("*");               
+                System.out.print("#");               
             }
             System.out.println();                   // pindah baris
         }
