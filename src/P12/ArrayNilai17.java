@@ -8,6 +8,8 @@ public class ArrayNilai17 {
         Scanner opik = new Scanner(System.in);
 
         int nomor = 1;
+        int jumlahLulus = 0;
+        int jumlahTidakLulus = 0;
 
         for (int i = 0; i < nilaiAkhir.length; i++) {
             System.out.print("Masukkan nilai mahasiswa ke-" + nomor + ": ");
@@ -18,11 +20,17 @@ public class ArrayNilai17 {
         nomor = 1;
         for (int nilai : nilaiAkhir) {
             if (nilai > 70) {
-                System.out.println("Mahasiswa ke-" + nomor + ": "
-                        + nilai + " (LULUS)");
+                System.out.println("Mahasiswa ke-" + nomor + ": " + nilai + " (LULUS)");
+                jumlahLulus++;
+            } else {
+                System.out.println("Mahasiswa ke-" + nomor + ": " + nilai + " (TIDAK LULUS)");
+                jumlahTidakLulus++;
             }
             nomor++;
         }
+        System.out.println("Jumlah mahasiswa yang lulus: " + jumlahLulus);
+        System.out.println("Jumlah mahasiswa yang tidak lulus: " + jumlahTidakLulus);
+
 
         opik.close();
     }
