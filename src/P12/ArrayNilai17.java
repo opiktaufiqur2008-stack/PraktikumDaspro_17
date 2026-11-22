@@ -18,7 +18,8 @@ public class ArrayNilai17 {
         nomor = 1;
         for (int nilai : nilaiAkhir) {
             if (nilai > 70) {
-                System.out.println("Mahasiswa ke-" + nomor + ": " + nilai + " (LULUS)");
+                System.out.println("Mahasiswa ke-" + nomor + ": "
+                        + nilai + " (LULUS)");
             }
             nomor++;
         }
