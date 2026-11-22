@@ -7,17 +7,21 @@ public class ArrayNilai17 {
         int[] nilaiAkhir = new int[10];
         Scanner opik = new Scanner(System.in);
 
+        int nomor = 1;
+
         for (int i = 0; i < nilaiAkhir.length; i++) {
-            System.out.print("Masukkan nilai mahasiswa ke-" + (i + 1) + ": ");
+            System.out.print("Masukkan nilai mahasiswa ke-" + nomor + ": ");
             nilaiAkhir[i] = opik.nextInt();
+            nomor++;
         }
 
-        for (int i = 0; i < nilaiAkhir.length; i++) {
-            String status = (nilaiAkhir[i] > 70) ? "LULUS" : "TIDAK LULUS";
-            System.out.println("Mahasiswa ke-" + (i + 1) + ": " + nilaiAkhir[i] + " (" +
-        status + ")");
+        nomor = 1;
+        for (int nilai : nilaiAkhir) {
+            if (nilai > 70) {
+                System.out.println("Mahasiswa ke-" + nomor + ": " + nilai + " (LULUS)");
+            }
+            nomor++;
         }
-
 
         opik.close();
     }
