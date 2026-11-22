@@ -4,7 +4,12 @@ import java.util.Arrays;
 
 public class ArrayBilangan17 {
     public static void main(String[] args) {
-        int[] bil = {17,25,-5,22,};
+        int[] bil = new int[4];
+
+        bil[0] = 17;
+        bil[1] = 25;
+        bil[2] = -5;
+        bil[3] = 22;
 
         for (int i = 0; i < bil.length; i++) {
             System.out.println("bil[" + i + "] = " + bil[i]);
