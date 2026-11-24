@@ -30,7 +30,9 @@ public class SearchNilai17 {
             }
         }
         if (!ditemukan) {
-            System.out.println("Nilai " + key + " tidak ditemukan.");
+           System.out.println("Maaf, nilai yang dicari (" + key +
+                ") tidak ditemukan di dalam array.");
+            System.out.println("Silakan periksa kembali nilai yang Anda masukkan.");
         }
         opik.close();
     }
